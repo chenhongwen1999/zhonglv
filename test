@@ -15,3 +15,4 @@ create table ads.ads_fi_acct_mapping_cash_flow_sheet_sapcopr
     ,platform                 varchar
 )
     with (orientation = 'row', compression = 'no');
+sfdvss
