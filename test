@@ -1,0 +1,17 @@
+create table ads.ads_fi_acct_mapping_cash_flow_sheet_sapcopr
+(
+    time_code	              varchar
+    ,org_code	              varchar
+    ,org_name	              varchar
+    ,acct_code	              varchar
+    ,acct_name	              varchar
+    ,std_opening_balance      numeric(18, 2)
+    ,std_closing_balance      numeric(18, 2)
+    ,scr_opening_balance      numeric(18, 2)
+    ,scr_closing_balance      numeric(18, 2)
+    ,jq_opening_balance       numeric(18, 2)
+    ,jq_closing_balance	      numeric(18, 2)
+    ,data_source	          varchar
+    ,platform                 varchar
+)
+    with (orientation = 'row', compression = 'no');
